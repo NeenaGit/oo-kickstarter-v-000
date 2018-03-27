@@ -10,5 +10,6 @@ class Backer
     @backed_projects << project
     backer = Backer.new
     @backers << backer
+    binding.pry
   end
 end
